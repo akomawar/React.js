@@ -6,7 +6,6 @@ import * as ContactsAPI from './utils/ContactsAPI'
 
 class App extends Component {
   state = {
-    screen: 'list', //list or create
     contacts: []
   }
   componentDidMount(){
