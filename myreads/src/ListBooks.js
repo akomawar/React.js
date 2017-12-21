@@ -10,9 +10,19 @@ class ListBooks extends Component{
         </div>
 
         <div className="list-books-content">
-          <h2>Currently Reading</h2>
-          <h2>Want to Read</h2>
-          <h2>Read</h2>
+
+            <div className='bookshelf'>
+              <h2>Currently Reading</h2>
+            </div>
+            
+            <div className='bookshelf'>
+              <h2>Want to Read</h2>
+            </div>
+
+            <div className='bookshelf'>
+              <h2>Read</h2>
+            </div>
+
         </div>
 
       </div>
